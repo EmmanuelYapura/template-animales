@@ -1,43 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h3,h4{
+    margin: 10px 0 10px 0;
+}
+
+.borde-r5{
+    border-radius: 5px;
+}
+
+.texto-centrado{
+    text-align: center;
+}
+
 .contenedor-grid{
-    font-size: 40px;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(4,300px);
+    grid-template-columns: repeat(4,290px);
     grid-template-rows: repeat(2,450px);
-    grid-gap: 20px 40px; /* primer valor row, segundo columns (agrega espacios entre elementos)*/
+    grid-gap: 10px 30px; /* primer valor row, segundo columns (agrega espacios entre elementos)*/
 }
 
-.d1{
-    background-color: aquamarine;
+.carta-img{
+    width: 100%;
+    height: 250px;
 }
 
-.d2{
-    background-color: brown;
+.carta-info{
+    height: 180px;
+    border: 1px solid black;
+    padding: 10px;
 }
 
-.d3{
-    background-color: black;
-}
-
-.d4{
-    background-color: blue;
-}
-
-.d5{
-    background-color: gray;
-}
-
-.d6{
-    background-color: yellow;
-}
-
-.d7{
-    background-color: green;
-}
-
-.d8{
-    background-color: blueviolet;
-}
 
 /* 
    Sirve para asignar a un elemento cuanta capacidad ocupar entre sus filas y columnas => grid-column: 1/3;
