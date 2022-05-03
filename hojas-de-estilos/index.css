@@ -1,0 +1,59 @@
+.contenedor-grid{
+    font-size: 40px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(2,450px);
+    grid-gap: 20px 40px; /* primer valor row, segundo columns (agrega espacios entre elementos)*/
+}
+
+.d1{
+    background-color: aquamarine;
+}
+
+.d2{
+    background-color: brown;
+}
+
+.d3{
+    background-color: black;
+}
+
+.d4{
+    background-color: blue;
+}
+
+.d5{
+    background-color: gray;
+}
+
+.d6{
+    background-color: yellow;
+}
+
+.d7{
+    background-color: green;
+}
+
+.d8{
+    background-color: blueviolet;
+}
+
+/* 
+   Sirve para asignar a un elemento cuanta capacidad ocupar entre sus filas y columnas => grid-column: 1/3;
+   
+   Idem para grid-row: 1/3;;
+
+   Alinea un elemento horizontalmente usando justify-self
+
+    //Las siguientes 2 propiedades van en el contenedor hijo: 
+
+        justify-self: start/center/end; => Acomoda el elemento horizontalmente
+
+        align-self: start/center/end; => acomoda el elemento verticalmente
+
+    //Las siguientes 2 propiedades van en el contenedor padre::after
+        justify-items: start/center/end;
+
+        align-items: start/center/end;
+*/
