@@ -14,8 +14,16 @@ header{
 }
 
 footer{
+    width: 100%;
     height: 250px;
     background-color: gray;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer div{
+    margin-left: 20px;
+    width: 33%;
 }
 
 .borde-r5{
@@ -24,6 +32,10 @@ footer{
 
 .texto-centrado{
     text-align: center;
+}
+
+.sombra-carta{
+    box-shadow: 2px 2px 2px 1px rgba(20, 19, 19, 0.637);
 }
 
 .contenedor-flex{
@@ -36,9 +48,10 @@ footer{
 .contenedor-grid{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(4,290px);
-    grid-template-rows: repeat(2,450px);
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(2,460px);
     grid-gap: 10px 30px; /* primer valor row, segundo columns (agrega espacios entre elementos)*/
+    justify-content: center; /* centra el contenedor */
 }
 
 .carta-img{
@@ -48,7 +61,6 @@ footer{
 
 .carta-info{
     height: 180px;
-    border: 1px solid black;
     padding: 10px;
 }
 
