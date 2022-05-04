@@ -45,6 +45,14 @@ footer div{
     align-items: center;
 }
 
+.contenedor-secundario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .contenedor-grid{
     width: 100%;
     display: grid;
