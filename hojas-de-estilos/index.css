@@ -9,23 +9,32 @@ h3,h4,h5,h6{
     font-size: 20px;
 }
 
+.contenedor-pagina{
+    margin: 0 auto;
+    height: 100%;
+    width: 1300px;
+}
+
 header{
     width: 100%;
     height: 80px;
-    background-color: aquamarine;
+    background-color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
 }
 
 footer{
     width: 100%;
     height: 250px;
-    background-color: gray;
+    background-color: #fff;
     display: flex;
     justify-content: space-around;
 }
 
 footer div{
     margin-left: 20px;
-    width: 33%;
+    width: 50%;
 }
 
 .borde-r5{
@@ -54,6 +63,7 @@ footer div{
     grid-template-rows: repeat(2,600px);
     grid-gap: 30px 30px; /* primer valor row, segundo columns (agrega espacios entre elementos)*/
     justify-content: center; /* centra el contenedor */
+    margin-bottom: 50px;
 }
 
 .carta-img{
@@ -68,7 +78,6 @@ footer div{
 
 .contenedor-secundario{
     width: 100%;
-    height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -93,22 +102,12 @@ h6 i{
     line-height: 1.5;
 }
 
+.contenedor-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
 
-/* 
-   Sirve para asignar a un elemento cuanta capacidad ocupar entre sus filas y columnas => grid-column: 1/3;
-   
-   Idem para grid-row: 1/3;;
-
-   Alinea un elemento horizontalmente usando justify-self
-
-    //Las siguientes 2 propiedades van en el contenedor hijo: 
-
-        justify-self: start/center/end; => Acomoda el elemento horizontalmente
-
-        align-self: start/center/end; => acomoda el elemento verticalmente
-
-    //Las siguientes 2 propiedades van en el contenedor padre::after
-        justify-items: start/center/end;
-
-        align-items: start/center/end;
-*/
